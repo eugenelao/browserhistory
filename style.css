@@ -8,10 +8,16 @@ h1, h2 {
   font-family: 'Oswald';
 }
 
-p {
-  font-family: 'Open Sans';
+div {
+  display: inline;
+  float: left;
+  width: 300px;
 }
 
 img {
-  float: left;
+  width: 100px;
+}
+
+p {
+  font-family: 'Open Sans';
 }
