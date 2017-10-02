@@ -1,15 +1,12 @@
 body {
+  font-family: 'Open Sans', 'sans-serif';
   color: darkblue;
   background-color: ivory;
   margin: 10px 50px 10px 50px;
 }
 
 h1, h2 {
-  font-family: 'Oswald';
-}
-
-p {
-  font-family: 'Open Sans';
+  font-family: 'Oswald', 'sans-serif';
 }
 
 img {
@@ -18,16 +15,14 @@ img {
 
 div {
   display: inline-block;
-  width: 300px;
+  width: 30%;
+  padding: 1.6%;
 }
 
-#left {
+.left {
   float: left;
 }
 
-#center {
-}
-
-#right {
+.right {
   float: right;
 }
